@@ -257,7 +257,7 @@ export default function Home() {
             color="#FFD700"
             description="Największa baza wiedzy o marketingu ubezpieczeniowym w social mediach. Platforma oferuje gotowe wzory postów, materiały graficzne oraz porady dotyczące skutecznej komunikacji w mediach społecznościowych dla agentów ubezpieczeniowych."
             tag="Social Media"
-            website="facebook.com/PostownikUbezpieczeniowy"
+            website="www.postownikubezpieczeniowy"
           />
         </div>
       </div>
