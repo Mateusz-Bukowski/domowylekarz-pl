@@ -1,6 +1,6 @@
 # Domowylekarz.pl
 
-Profesjonalna strona internetowa dla usług telemedycyny - Domowy Lekarz.
+Profesjonalna strona internetowa dla usług telemedycyny - Home Doctor.
 
 ## 🏥 O projekcie
 
@@ -10,6 +10,7 @@ Domowylekarz.pl to nowoczesna platforma telemedyczna oferująca:
 - Dostęp do lekarzy 24/7
 - Specjalistów dla dzieci
 - E-recepty i skierowania online
+- Już od 1,36 zł dziennie
 
 ## 🚀 Technologie
 
@@ -25,6 +26,9 @@ Domowylekarz.pl to nowoczesna platforma telemedyczna oferująca:
 - ✅ SEO optimized
 - ✅ Accessibility
 - ✅ Modern UI/UX
+- ✅ Animacje i interakcje
+- ✅ Opinie klientów
+- ✅ Lista specjalizacji
 
 ## 🛠️ Rozwój lokalny
 
@@ -41,17 +45,19 @@ npm run build
 
 ## 📄 Strony
 
-- `/` - Strona główna
+- `/` - Strona główna z informacjami o usłudze
 - `/polityka-prywatnosci` - Polityka prywatności
 - `/regulamin` - Regulamin usługi
 
 ## 🌐 Deployment
 
-Projekt jest automatycznie wdrażany na Vercel przy każdym push do main branch.
+Projekt wdrażany na Vercel z automatycznym SSL i CDN.
 
 ## 📞 Kontakt
 
-Więcej informacji na: [domowylekarz.pl](https://domowylekarz.pl)
+- **Strona:** [domowylekarz.pl](https://domowylekarz.pl)
+- **Email:** info@homedoctor.pl
+- **Telefon:** Dostępni 24/7
 
 ---
 

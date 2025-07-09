@@ -16,7 +16,7 @@
 1. **Idź na GitHub.com** i zaloguj się
 2. **Kliknij "New repository"**
 3. **Nazwa:** `domowylekarz-pl`
-4. **Opis:** `Strona Domowylekarz.pl - telemedycyna`
+4. **Opis:** `Strona Domowylekarz.pl - telemedycyna Home Doctor`
 5. **Ustaw jako Public**
 6. **Kliknij "Create repository"**
 
@@ -26,9 +26,8 @@ Otwórz terminal w folderze projektu i wykonaj:
 
 ```bash
 cd c:/Users/Lenovo/my-next-app/src/app
-git init
 git add .
-git commit -m "Initial commit - Domowylekarz.pl"
+git commit -m "Projekt Domowylekarz.pl - Home Doctor"
 git branch -M main
 git remote add origin https://github.com/TWOJA-NAZWA/domowylekarz-pl.git
 git push -u origin main
