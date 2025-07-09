@@ -1,6 +1,11 @@
 import { useState } from 'react';
 
-export default function CookiesModal({ isOpen, onClose }) {
+interface CookiesModalProps {
+  isOpen: boolean;
+  onClose: () => void;
+}
+
+export default function CookiesModal({ isOpen, onClose }: CookiesModalProps) {
   const [necessaryCookies, setNecessaryCookies] = useState(true);
   const [analyticalCookies, setAnalyticalCookies] = useState(true);
   const [marketingCookies, setMarketingCookies] = useState(false);

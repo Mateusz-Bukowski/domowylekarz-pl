@@ -12,7 +12,16 @@ import Link from 'next/link';
 import CookiesModal from './Cookies/CookiesModal';
 
 // Komponent karty firmy
-function CompanyCard({ name, icon, color, description, tag, website }) {
+interface CompanyCardProps {
+  name: string;
+  icon: string;
+  color: string;
+  description: string;
+  tag: string;
+  website: string;
+}
+
+function CompanyCard({ name, icon, color, description, tag, website }: CompanyCardProps) {
   return (
     <div className="bg-white rounded-xl shadow-md hover:shadow-xl transition-shadow overflow-hidden h-full flex flex-col">
       <div className="p-6 flex items-center border-l-4" style={{ borderLeftColor: color }}>
@@ -47,7 +56,7 @@ export default function Home() {
   const [isCookiesModalOpen, setIsCookiesModalOpen] = useState(false);
 
   // Funkcja filtrująca kategorie
-  const filterByCategory = (category) => {
+  const filterByCategory = (category: string) => {
     setActiveCategory(category);
   };
 
